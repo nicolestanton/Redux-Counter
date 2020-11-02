@@ -7,7 +7,12 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
-    ]
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties"
+      ]
+  ]
   },
   "scripts": {
     "start": "webpack serve",
@@ -38,6 +43,8 @@
   },
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
   }
 }
