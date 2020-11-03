@@ -1,0 +1,50 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 3px 12px 2px #bfbfbf;
+  background-color: #878bff;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.counter-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+button {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #373bb3;
+  background-color: transparent;
+  font-size: 24px;
+  color: #373bb3;
+}
+
+.count-card {
+  background-color: #373bb3;
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+  margin-top: -8px;
+}
+
+.count {
+  font-size: 32px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
