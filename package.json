@@ -12,11 +12,11 @@
       [
         "@babel/plugin-proposal-class-properties"
       ]
-  ]
+    ]
   },
   "scripts": {
     "start": "webpack serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest -c jest.config.js --watch",
     "create": "webpack"
   },
   "repository": {
@@ -33,9 +33,12 @@
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
     "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.2",
     "style-loader": "^2.0.0",
     "webpack": "^5.3.2",
     "webpack-cli": "^4.1.0",

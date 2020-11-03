@@ -16,6 +16,7 @@ class Counter extends React.Component {
 
   render() {
     return (
+        
       <div className="counter">
         <h2>Redux Counter</h2>
         <div className="counter-container">
