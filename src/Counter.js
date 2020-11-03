@@ -22,7 +22,7 @@ class Counter extends React.Component {
         <div className="counter-container">
           <button onClick={this.decrement}>-</button>
           <div className="count-card">
-            <span className="count" key={this.props.count}>
+            <span className="count" key={this.props.count} data-testid="count">
               {this.props.count}
             </span>
           </div>
